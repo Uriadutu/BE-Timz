@@ -11,7 +11,7 @@ import DepartemenRoute from "./Routes/DepartemenRoute.js"
 import TahunRoute from "./Routes/TahunRoute.js"
 import InvoiceRoute from "./Routes/InvoiceRoute.js"
 import AuthRoute from "./Routes/AuthRoute.js"
-
+dotenv.config();
 
 const app = express();
 
