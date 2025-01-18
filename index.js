@@ -12,6 +12,7 @@ import TahunRoute from "./Routes/TahunRoute.js"
 import InvoiceRoute from "./Routes/InvoiceRoute.js"
 import AuthRoute from "./Routes/AuthRoute.js"
 dotenv.config();
+
 const app = express();
 
 const sessionStore = SequelizeStore(session.Store);
