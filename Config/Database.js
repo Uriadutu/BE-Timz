@@ -8,4 +8,4 @@ const db = new Sequelize("db_invoice", "root", "", {
   dialect: "mysql",
 });
 
-export default db
+export default dbbaru
